@@ -26,15 +26,38 @@ header .header-icons-container {
   background-color: #47cfac;
 }
 header .header-icons-container .icons {
-  width: 300px;
+  width: 200px;
   height: auto;
   display: flex;
   justify-items: flex-end;
   align-items: center;
   justify-content: space-between;
   justify-self: end;
-  margin-right: 50px;
+  margin-right: 30px;
 }
 header .icons span {
   color: white;
+  font-size: 24px;
+}
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+nav .nav-logo-container img{
+  width: 220px;
+  margin-top: 10px;
+}
+nav .nav-logo-container {
+  margin-left: 50px;
+}
+nav .profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+nav .profile-link a{
+  color: black;
+  border-bottom: 1px solid black;
 }
