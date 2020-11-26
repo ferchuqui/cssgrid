@@ -78,8 +78,10 @@ nav .profile-link a{
   margin-top: 80px;
 }
 .home-main-text {
+  font-family: 'Roboto mono', monospace;
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 10px;
   color: black;
+
 }
